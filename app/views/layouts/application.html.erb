@@ -9,6 +9,15 @@
   </head>
 
   <body>
+    <nav>
+      <%= link_to "New Message", new_message_path %>
+    </nav>
+
     <%= yield %>
+
+    <footer>
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+    </footer>
   </body>
 </html>
