@@ -1,5 +1,11 @@
 <%= simple_form_for @message do |f| %>
-  <%= f.input :title, label: "Message Title" %>
-  <%= f.input :description %>
-  <%= f.button :submit %>
+  <div class="ui form">
+    <div class="field">
+    <%= f.input :title, label: "Message Title" %>
+    </div>
+    <div class="field">
+    <%= f.input :description %>
+    </div>
+    <%= f.button :submit, class: "ui green button" %>
+  </div>
 <% end %>
