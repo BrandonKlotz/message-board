@@ -26,8 +26,7 @@
     <%= yield %>
 
     <footer>
-      <div class="notice"><%= notice %></div>
-      <div class="alert"><%= alert %></div>
+      <%= render 'messages/alert' %>
     </footer>
   </body>
 </html>
