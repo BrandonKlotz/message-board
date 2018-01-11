@@ -1,0 +1,9 @@
+<h1>Edit Comment</h1>
+<div class="ui form">
+<%= simple_form_for([@message, @comment]) do |f| %>
+  <div class="field">
+  <%= f.input :content, label: "Comment" %>
+  </div>
+  <%= f.button :submit, class: "ui green button" %>
+<% end %>
+</div>
