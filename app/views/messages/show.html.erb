@@ -11,11 +11,15 @@
 <h3 class="ui dividing header">Discussion:</h3>
 <%= render 'comments/form' %>
 
-<%= link_to "Back", root_path %>
+<div class="divided grid"></div>
+
+<div class="ui buttons">
+<%= link_to "Back", root_path, class: "ui button" %>
 <% if user_signed_in? %>
   <% if @message.user_id = current_user.id %>
-    <%= link_to "Edit", edit_message_path(@message) %>
-    <%= link_to "Delete", message_path(@message), method: :delete %>
+    <%= link_to "Edit", edit_message_path(@message), class: "ui button" %>
+    <%= link_to "Delete", message_path(@message), method: :delete, class: "ui button" %>
     <!-- Link to modal -->
   <% end %>
 <% end %>
+</div>

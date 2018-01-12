@@ -10,7 +10,7 @@
 
   <body>
 
-    <div class="ui menu">
+    <div class="ui large top fixed hidden menu">
           <%= link_to "Message Board", root_path, class: "item" %>
           <% if user_signed_in? %>
             <%= link_to "Sign Out", destroy_user_session_path, method: :delete, class: "item" %></li>
@@ -23,10 +23,12 @@
         <% end %>
     </div>
 
-    <%= yield %>
+
+    <div class="ui container" id="yield">
+      <%= yield %>
+    </div>
 
     <footer>
-
       <%= render 'messages/alert' %>
     </footer>
   </body>

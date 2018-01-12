@@ -1,5 +1,8 @@
+
+<div class="ui grid">
 <% if user_signed_in? %>
   <% @messages.each do |message| %>
+  <div class="four wide column">
   <div class="ui card">
     <div class="content">
       <div class="header">
@@ -13,7 +16,10 @@
       <%= link_to "View Message", message_path(message), class: "ui green button" %>
     </div>
   </div>
+
+</div>
   <% end %>
+</div>
 
   <% else %>
 
