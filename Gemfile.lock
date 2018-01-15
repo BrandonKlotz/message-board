@@ -195,6 +195,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-darwin-17
 
 DEPENDENCIES
   byebug
