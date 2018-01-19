@@ -1,24 +1,7 @@
-# README
+# Message Board
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple message board website. You can create new blocks and comment in them, a special feature is the ability for users to have unique access to edit and destroy their comments and messages.
 
-Things you may want to cover:
+# New Learns
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [Semantic UI](https://semantic-ui.com/)
