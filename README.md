@@ -5,3 +5,5 @@ A simple message board website. You can create new blocks and comment in them, a
 # New Learns
 
 - [Semantic UI](https://semantic-ui.com/)
+- Gained better understanding of how to use Private functions in controllers
+- Gained better understanding of how controllers can have relations to eachother (comments to messages)
